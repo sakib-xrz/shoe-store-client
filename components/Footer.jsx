@@ -7,11 +7,11 @@ const Footer = () => {
         <footer className="bg-black text-white pt-14 pb-3">
             <Wrapper className="flex justify-between flex-col md:flex-row gap-[50px] md:gap-0">
                 {/* LEFT START */}
-                <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] flex-col md:flex-row">
+                <div className="flex gap-[50px] md:gap-[75px] lg:gap-[150px] flex-col md:flex-row">
                     {/* MENU START */}
-                    <div className="flex flex-col gap-3 shrink-0">
+                    <div className="hidden lg:flex flex-col gap-3 shrink-0">
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            Find a store
+                            find a store
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             become a partner
@@ -29,14 +29,11 @@ const Footer = () => {
                     {/* MENU END */}
 
                     {/* NORMAL MENU START */}
-                    <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] shrink-0">
+                    <div className="flex gap-[50px] md:gap-[75px] lg:gap-[150px] shrink-0">
                         {/* MENU START */}
                         <div className="flex flex-col gap-3">
                             <div className="font-oswald font-medium uppercase text-sm">
                                 get help
-                            </div>
-                            <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Order Status
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 Delivery
@@ -56,7 +53,7 @@ const Footer = () => {
                         {/* MENU START */}
                         <div className="flex flex-col gap-3">
                             <div className="font-oswald font-medium uppercase text-sm">
-                                About nike
+                                About us
                             </div>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 News

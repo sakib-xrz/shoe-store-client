@@ -1,20 +1,15 @@
-import HeroBanner from "@/components/HeroBanner";
-import ProductCard from "@/components/ProductCard";
-import Wrapper from "@/components/Wrapper";
+import React from "react";
 
-export default function Home() {
+import Wrapper from "@/components/Wrapper";
+import ProductCard from "@/components/ProductCard";
+
+const Category = () => {
     return (
-        <main className="min-h-screen">
-            <HeroBanner />
+        <div className="w-full md:py-20 relative">
             <Wrapper>
-                <div className="text-center max-w-[800px] mx-auto my-[50px] md:my-[80px]">
+                <div className="text-center max-w-[800px] mx-auto mt-8 md:mt-0">
                     <div className="text-[28px] md:text-[34px] mb-5 font-semibold leading-tight">
-                        Cushioning for Your Miles
-                    </div>
-                    <div className="text-md md:text-xl">
-                        A lightweight Nike ZoomX mid-sole is combined with
-                        increased stack heights to help provide cushioning
-                        during extended stretches of running.
+                        Category Heading
                     </div>
                 </div>
 
@@ -30,6 +25,8 @@ export default function Home() {
                     <ProductCard />
                 </div>
             </Wrapper>
-        </main>
+        </div>
     );
-}
+};
+
+export default Category;

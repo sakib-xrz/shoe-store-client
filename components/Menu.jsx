@@ -37,7 +37,7 @@ const Menu = ({ showCategoryMenu, setShowCategoryMenu }) => {
                                             return (
                                                 <Link
                                                     key={index}
-                                                    href={"/"}
+                                                    href={"/category/jordan"}
                                                     onClick={() =>
                                                         setShowCategoryMenu(
                                                             false
